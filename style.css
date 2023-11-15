@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(0, 106, 255, 0.668);
+}
+
+h1 {
+    color: #333;
+}
+
+#weather-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weather-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.weather-card h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.weather-card p {
+    margin: 5px 0;
+}
+
+.we_d {
+    position: absolute;
+    left: 50%;
+    translate: -50% 0%;
+    height: 600px;
+    width: 600px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-top: 100px;
+}
